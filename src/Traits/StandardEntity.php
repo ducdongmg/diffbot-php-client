@@ -8,7 +8,10 @@ namespace Swader\Diffbot\Traits;
  * @property $data array
  */
 trait StandardEntity {
-
+	/**
+     * Temporary add for testing
+     */
+	$this->data;
     /**
      * Alias for getLang()
      * @see getLang()
