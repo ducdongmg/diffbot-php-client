@@ -11,7 +11,7 @@ trait StandardEntity {
 	/**
      * Temporary add for testing
      */
-	$this->data;
+	protected $data = array();
     /**
      * Alias for getLang()
      * @see getLang()
